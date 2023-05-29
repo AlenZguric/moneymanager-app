@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # moneymanager-app
 =======
 # Getting Started with Create React App
@@ -72,3 +73,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 >>>>>>> 9f0682f (Initialize project using Create React App)
+=======
+MONEY MANAGER APPLICATION
+
+>>>>>>> 3de5e92 (create app)
