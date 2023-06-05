@@ -7,6 +7,8 @@ import Profile from "../src/pages/Profile";
 import ContactMe from "../src/pages/ContactMe";
 import About from "../src/pages/About";
 import Money from "./pages/Money";
+import SignIn from "./pages/SignIn";
+
 
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
               <Route path="/kontaktiraj_me" element={<ContactMe/>} />
               <Route path="/o_nama" element={<About/>} />
               <Route path="/money" element={<Money/>} />
+              <Route path="/prijavi_se" element={<SignIn/>} />
           </Routes>
         </Sidebar>
       </BrowserRouter>

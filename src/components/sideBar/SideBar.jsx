@@ -1,5 +1,5 @@
 import React, {useState} from "react";  
-import { FaEnvelopeOpen, FaHome, FaInfo, FaBars} from "react-icons/fa";
+import { FaEnvelopeOpen, FaHome, FaInfo, FaBars, FaSignInAlt} from "react-icons/fa";
 import {BsPersonCircle} from "react-icons/bs";
 import {SiCashapp} from "react-icons/si";
 
@@ -37,6 +37,11 @@ const Sidebar = ({children}) => {
             name: "O nama",
             icon: <FaInfo/>
         },
+        {
+            path: "/prijavi_se",
+            name: "Prijavi se",
+            icon: <FaSignInAlt/>
+        },
     ]
     return(
         <div className="container_sidebar">
@@ -49,7 +54,7 @@ const Sidebar = ({children}) => {
                 </div>
                 {
                     menuItem.map((item, index)=>(
-                       <NavLink to={item.path} key={index} className="link" activeclassName="active">
+                       <NavLink to={item.path} key={index} className="link" activeclassname="active">
                             <div className="icon">{item.icon}</div>
                             <div style={{display: isOpen ? "block" : "none"}} className="link_text">{item.name}</div>
                         </NavLink> 
